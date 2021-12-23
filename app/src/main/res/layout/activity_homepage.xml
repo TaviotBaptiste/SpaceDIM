@@ -9,7 +9,7 @@
 
     <TextView
         android:id="@+id/titleHomePage"
-        android:layout_marginTop="200dp"
+        android:layout_marginTop="150dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/dim_space_team"
@@ -21,7 +21,7 @@
         android:layout_marginTop="100dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/i_m_a_famous_astronaut" />
+        android:text="@string/subtitleHomePage" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -43,7 +43,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@android:color/holo_orange_dark"
-            android:text="@string/launch" />
+            android:textColor="@android:color/white"
+            android:text="@string/launchHomePage" />
     </LinearLayout>
 
     <TextView
@@ -51,7 +52,7 @@
         android:layout_marginTop="30dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/i_m_new_to_space_program"
+        android:text="@string/newHomePage"
         android:textAlignment="textEnd"
         android:gravity="end" />
 
@@ -60,8 +61,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@android:color/holo_orange_dark"
-        android:text="@string/register_an_astronaute_profile"
+        android:text="@string/registerHomePage"
         android:layout_gravity="right"
-        tools:ignore="RtlHardcoded" />
+        tools:ignore="RtlHardcoded"
+        android:textColor="@android:color/white" />
 
 </LinearLayout>

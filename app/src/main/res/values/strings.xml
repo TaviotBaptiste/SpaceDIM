@@ -1,8 +1,14 @@
 <resources>
     <string name="app_name">SpaceDIM</string>
     <string name="dim_space_team">DIM Space Team</string>
-    <string name="i_m_a_famous_astronaut">I\'m a famous Astronaut</string>
-    <string name="launch">LAUNCH</string>
-    <string name="i_m_new_to_space_program">I\'m new to Space Program</string>
-    <string name="register_an_astronaute_profile">REGISTER AN ASTRONAUTE PROFILE</string>
+    <string name="subtitleHomePage">I\'m a famous Astronaut</string>
+    <string name="launchHomePage">LAUNCH</string>
+    <string name="newHomePage">I\'m new to Space Program</string>
+    <string name="registerHomePage">REGISTER AN ASTRONAUTE PROFILE</string>
+    <string name="titleWaiting">Enter a room name to join or create a game ...</string>
+    <string name="joingameWaiting">JOIN A GAME ROOM</string>
+    <string name="socketWaiting">Socket inactive</string>
+    <string name="noroomWaiting">No Room Joined</string>
+    <string name="positionGame">You are currently in traveling in the Galaxy 1</string>
+    <string name="informationGame">Il y a trop de gaz !</string>
 </resources>
