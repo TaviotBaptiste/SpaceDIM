@@ -13,7 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/dim_space_team"
-        android:textSize="30dp"
+        android:textSize="30sp"
         android:gravity="center_horizontal" />
 
     <TextView
@@ -34,7 +34,9 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:ems="10"
-            android:inputType="textPersonName"/>
+            android:inputType="textPersonName"
+            android:autofillHints="test"
+            tools:ignore="LabelFor" />
 
         <Button
             android:id="@+id/launchButtonHomePage"
