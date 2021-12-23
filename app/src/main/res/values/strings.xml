@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">SpaceDIM</string>
+    <string name="dim_space_team">DIM Space Team</string>
+    <string name="i_m_a_famous_astronaut">I\'m a famous Astronaut</string>
+    <string name="launch">LAUNCH</string>
+    <string name="i_m_new_to_space_program">I\'m new to Space Program</string>
+    <string name="register_an_astronaute_profile">REGISTER AN ASTRONAUTE PROFILE</string>
 </resources>

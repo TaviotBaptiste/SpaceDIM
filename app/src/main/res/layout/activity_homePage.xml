@@ -1,0 +1,65 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/titleHomePage"
+        android:layout_marginTop="200dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dim_space_team"
+        android:textSize="30dp"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/textHomePage"
+        android:layout_marginTop="100dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/i_m_a_famous_astronaut" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/playerNameHomePage"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName"/>
+
+        <Button
+            android:id="@+id/launchButtonHomePage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_orange_dark"
+            android:text="@string/launch" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/playerNewHomePage"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/i_m_new_to_space_program"
+        android:textAlignment="textEnd"
+        android:gravity="end" />
+
+    <Button
+        android:id="@+id/registerButtonHomePage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_orange_dark"
+        android:text="@string/register_an_astronaute_profile"
+        android:layout_gravity="right"
+        tools:ignore="RtlHardcoded" />
+
+</LinearLayout>
