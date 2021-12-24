@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/titleEnd"
+        android:layout_marginTop="250dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textSize="25sp"
+        android:text="@string/loseEnd"/>
+    <TextView
+        android:id="@+id/textScoreEnd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:textStyle="bold"
+        android:text="@string/scoreEnd" />
+    <TextView
+        android:id="@+id/textMoreEnd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:textStyle="bold"
+        android:text="@string/moreEnd" />
+
+    <Button
+        android:id="@+id/retryButtonEnd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_orange_dark"
+        android:text="@string/retry_loser"
+        android:layout_marginTop="30dp"
+        android:textColor="@android:color/white"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/scoreButtonEnd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_orange_light"
+        android:text="@string/high_scores"
+        android:layout_marginTop="10dp"
+        android:textColor="@android:color/white"
+        android:layout_gravity="center"/>
+
+
+</LinearLayout>

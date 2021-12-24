@@ -11,4 +11,10 @@
     <string name="noroomWaiting">No Room Joined</string>
     <string name="positionGame">You are currently in traveling in the Galaxy 1</string>
     <string name="informationGame">Il y a trop de gaz !</string>
+    <string name="loseEnd">You lose, What a miss !</string>
+    <string name="scoreEnd">Your score for this game was : 220</string>
+    <string name="moreEnd">You reap what you show</string>
+    <string name="retry_loser">Retry (LOSER)</string>
+    <string name="high_scores">HIGH SCORES</string>
+    <string name="nextDebug">NEXT PAGE (DEBUG)</string>
 </resources>
