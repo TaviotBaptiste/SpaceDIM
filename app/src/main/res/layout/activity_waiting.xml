@@ -5,17 +5,26 @@
     android:layout_height="match_parent"
     android:paddingLeft="16dp"
     android:paddingRight="16dp"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="@color/purple_lessdark">
 
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/spaceteam_foreground" />
 
     <TextView
         android:id="@+id/titleWaiting"
-        android:layout_marginTop="150dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/titleWaiting"
         android:textSize="25sp"
-        android:gravity="center_horizontal"/>
+        android:gravity="center_horizontal"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginTop="-70dp"/>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -37,7 +46,8 @@
             android:layout_height="match_parent"
             android:gravity="center_horizontal"
             android:paddingTop="5dp"
-            android:text="@string/socketWaiting" />
+            android:text="@string/socketWaiting"
+            android:textColor="@color/white" />
     </LinearLayout>
 
 
@@ -45,11 +55,12 @@
             android:id="@+id/startButtonWaiting"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@android:color/holo_orange_dark"
+            android:background="@color/purple_lesslight"
             android:text="@string/joingameWaiting"
             android:layout_marginTop="30dp"
             android:textColor="@android:color/white"
-            android:layout_gravity="center"/>
+            android:layout_gravity="center"
+            android:padding="5dp"/>
 
     <TextView
         android:id="@+id/emptyWaiting"
@@ -57,7 +68,8 @@
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
         android:layout_marginTop="15dp"
-        android:text="@string/noroomWaiting" />
+        android:text="@string/noroomWaiting"
+        android:textColor="@color/white"/>
 
     <android.support.v7.widget.RecyclerView
         android:layout_width="match_parent"
