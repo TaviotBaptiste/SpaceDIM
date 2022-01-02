@@ -1,0 +1,83 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical"
+    android:background="@color/purple_lessdark">
+
+
+    <TextView
+        android:id="@+id/titleHomePage"
+        android:layout_marginTop="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dim_space_team"
+        android:textSize="40sp"
+        android:textColor="@android:color/white"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"/>
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/space_foreground" />
+
+    <TextView
+        android:id="@+id/textHomePage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:text="@string/subtitleHomePage" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/playerNameHomePage"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:autofillHints="test"
+            tools:ignore="LabelFor"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:id="@+id/launchButtonHomePage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/purple_lesslight"
+            android:textColor="@android:color/white"
+            android:text="@string/launchHomePage" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/playerNewHomePage"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/newHomePage"
+        android:textAlignment="textEnd"
+        android:textColor="@android:color/white"
+        android:gravity="end" />
+
+    <Button
+        android:id="@+id/registerButtonHomePage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:background="@color/purple_lesslight"
+        android:text="@string/registerHomePage"
+        android:layout_gravity="right"
+        tools:ignore="RtlHardcoded"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>

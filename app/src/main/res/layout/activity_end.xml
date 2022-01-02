@@ -1,0 +1,69 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical"
+    android:background="@color/purple_lessdark">
+
+
+    <ImageView
+        android:id="@+id/imageEnd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/ic_channel_foreground" />
+
+    <TextView
+        android:id="@+id/titleEnd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textSize="25sp"
+        android:text="@string/loseEnd"
+        android:textColor="@color/white"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/textScoreEnd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:textStyle="bold"
+        android:text="@string/scoreEnd"
+        android:textColor="@color/white"/>
+    <TextView
+        android:id="@+id/textMoreEnd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:textStyle="bold"
+        android:text="@string/moreEnd"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:id="@+id/retryButtonEnd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/purple_lesslight"
+        android:text="@string/retry_loser"
+        android:layout_marginTop="30dp"
+        android:textColor="@android:color/white"
+        android:layout_gravity="center"
+        android:padding="5dp" />
+
+    <Button
+        android:id="@+id/scoreButtonEnd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/purple_light"
+        android:text="@string/high_scores"
+        android:layout_marginTop="10dp"
+        android:textColor="@android:color/white"
+        android:layout_gravity="center"
+        android:padding="5dp"/>
+
+
+</LinearLayout>
