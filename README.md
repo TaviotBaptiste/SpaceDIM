@@ -1,2 +1,2 @@
 # SpaceDIM
-SpaceDIM - Projet from School
+SpaceDIM - Projet for School
